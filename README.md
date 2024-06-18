@@ -1,8 +1,8 @@
 # TourRank
 
-This is the code of "[TourRank: Utilizing Large Language Models for Documents Ranking with a Tournament-Inspired Strategy](https://arxiv.org/pdf/2406.11678)", proposing a novel zero-shot LLM-based documents ranking methods.
+This is the code of [TourRank: Utilizing Large Language Models for Documents Ranking with a Tournament-Inspired Strategy](https://arxiv.org/pdf/2406.11678), proposing a novel zero-shot LLM-based documents ranking methods.
 
-If you want to reference the paper, you can cite the following:
+If you want to reference this paper, you can cite the following:
 ```bibtex
 @misc{chen2024tourrank,
       title={TourRank: Utilizing Large Language Models for Documents Ranking with a Tournament-Inspired Strategy}, 
