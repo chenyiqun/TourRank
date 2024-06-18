@@ -438,14 +438,14 @@ if __name__ == '__main__':
         # # reverse the results of BM25
         # docs_id.reverse()
 
-        # # 测试shuffle/reverse了BM25结果后的指标
+        # # test the results of shuffle/reverseBM25
         # ranked_list = docs_id
-        # # 得到粗排序后的列表对应的真实rel scores
+        # # get the rel scores
         # ranked_docs_score = []
         # for doc_id in ranked_list:
         #     ranked_docs_score.append(ideal_scores[doc_id])
 
-        # # 计算当前query的ndcg@1 5 10 20
+        # # calculate the current query's ndcg@1 5 10 20
         # cur_ndcg_1 = ndcg_at_k(ranked_docs_score, k=1)
         # cur_ndcg_5 = ndcg_at_k(ranked_docs_score, k=5)
         # cur_ndcg_10 = ndcg_at_k(ranked_docs_score, k=10)
@@ -454,7 +454,7 @@ if __name__ == '__main__':
         # print('\t')
         # logger.info('The reversed metrics, the ndcg@1, 5, 10, 20 of query {} is {}, {}, {}, {}.'.format(i, round(cur_ndcg_1, 4), round(cur_ndcg_5, 4), round(cur_ndcg_10, 4), round(cur_ndcg_20, 4)))
         # # logger.info('\t')
-        # # 保存结果
+        # # save the results
         # for j in range(len(ranked_list)):
         #     with open('{}/TREC_results/gpt_3.5/bm25_dl20_detail_points/results_filter_accumulate_final_{}.txt'.format(pre_path, 0), 'a') as f:
         #         f.write(str(query_docs[i]['hits'][0]['qid']) + ' Q0 ' + ranked_list[j] + ' ' + str(j+1) + ' ' + str(100-j) + ' rank' + '\n')
