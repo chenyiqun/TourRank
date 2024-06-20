@@ -7,11 +7,9 @@ More formal code will be updated in the near future.
 # Cite
 If you want to reference this paper, you can cite the following:
 ```bibtex
-@misc{chen2024tourrank,
-      title={TourRank: Utilizing Large Language Models for Documents Ranking with a Tournament-Inspired Strategy}, 
-      author={Yiqun Chen and Qi Liu and Yi Zhang and Weiwei Sun and Daiting Shi and Jiaxin Mao and Dawei Yin},
-      year={2024},
-      eprint={2406.11678},
-      archivePrefix={arXiv},
-      primaryClass={id='cs.IR' full_name='Information Retrieval' is_active=True alt_name=None in_archive='cs' is_general=False description='Covers indexing, dictionaries, retrieval, content and analysis. Roughly includes material in ACM Subject Classes H.3.0, H.3.1, H.3.2, H.3.3, and H.3.4.'}
+@article{chen2024tourrank,
+  title={TourRank: Utilizing Large Language Models for Documents Ranking with a Tournament-Inspired Strategy},
+  author={Chen, Yiqun and Liu, Qi and Zhang, Yi and Sun, Weiwei and Shi, Daiting and Mao, Jiaxin and Yin, Dawei},
+  journal={arXiv preprint arXiv:2406.11678},
+  year={2024}
 }
